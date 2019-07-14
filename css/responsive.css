@@ -1,1 +1,25 @@
 /* Responsive Web Design */
+
+@media only screen and (max-width: 1030px) {
+	header div.wrapper, section div.wrapper, footer div.wrapper {
+		width: 90% !important;
+	}
+
+	#back-to-top {
+		display: none;
+	}
+
+	div.company-card {
+		flex: 1 0 5% !important;
+	}
+}
+
+@media only screen and (max-width: 675px) {
+	div.skill-wrapper {
+		flex-direction: column !important;
+	}
+
+	div.company-card {
+		padding: 1em;
+	}
+}
