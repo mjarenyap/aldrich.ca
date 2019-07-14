@@ -9,7 +9,7 @@
 
 		<!-- links -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,600,700&display=swap" rel="stylesheet" />
 
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<link rel="shortcut icon" type="image/png" href="assets/logos/favicon.png" />
@@ -20,7 +20,7 @@
 	</head>
 	<body>
 		<!-- First impressions; Bio; Media links -->
-		<header>
+		<header id="h" class="hide">
 			<div class="wrapper">
 				<img src="assets/logos/main-logo.svg" id="main-logo" />
 				<h1>
@@ -34,13 +34,15 @@
 					<a href="#"><i class="fa fa-envelope"></i></a>
 				</div>
 				<p id="bio">
-					Aldrich is an Experience Architect who has led and collaborated with numerous design teams in various industries throughout the <b>US</b>, <b>Canada</b>, and the <b>Philippines</b>. He specializes in reshaping complex product problems into simpler systems, processes, and meaningful interactions while weaving a brand's ethos into all possible touch points of a company and its product or service. He is currently building a FinTech company, <b>NextPay</b>, focused on financial wellness for Filipinos. He also works with companies and organizations to build stronger design cultures and processes through consultations and workshops. He is also an organizing member of the non-profit design organization <b>UXPH</b>, and a mentor for younger designers in the community.
+					Aldrich is an Experience Architect who has led and collaborated with numerous design teams in various industries throughout the <b>US</b>, <b>Canada</b>, and the <b>Philippines</b>. He specializes in reshaping complex product problems into simpler systems, processes, and meaningful interactions while weaving a brand's ethos into all possible touch points of a company and its product or service.
+					<br/><br/>
+					He is currently building a FinTech company, <b>NextPay</b>, focused on financial wellness for Filipinos. He also works with companies and organizations to build stronger design cultures and processes through consultations and workshops. He is also an organizing member of the non-profit design organization <b>UXPH</b>, and a mentor for younger designers in the community.
 				</p>
 			</div>
 		</header>
 
 		<!-- Skillsets -->
-		<section>
+		<section class="hidden">
 			<div class="wrapper">
 				<h2>What you'd hire me for</h2>
 				<div class="skill-wrapper">
@@ -72,11 +74,13 @@
 		</section>
 
 		<!-- Company Projects -->
-		<section>
+		<section class="hidden">
 			<div class="wrapper">
 				<h2>Some companies I've worked with</h2>
-				<div class="content-wrapper">
-					<!-- Company card -->
+
+				<!-- List of works -->
+				<div class="company-wrapper">
+
 					<div class="company-card">
 						<!-- 1:1 ratio company logo/photo -->
 						<img src="assets/images/comp.svg" class="featured-image" />
@@ -86,12 +90,43 @@
 							<p class="industry">Industry</p>
 						</div>
 					</div>
+
+					<div class="company-card">
+						<!-- 1:1 ratio company logo/photo -->
+						<img src="assets/images/comp.svg" class="featured-image" />
+						<!-- Company name & industry -->
+						<div class="details">
+							<h3 class="company-name">Company Name</h3>
+							<p class="industry">Industry</p>
+						</div>
+					</div>
+
+					<div class="company-card">
+						<!-- 1:1 ratio company logo/photo -->
+						<img src="assets/images/comp.svg" class="featured-image" />
+						<!-- Company name & industry -->
+						<div class="details">
+							<h3 class="company-name">Company Name</h3>
+							<p class="industry">Industry</p>
+						</div>
+					</div>
+
+					<div class="company-card">
+						<!-- 1:1 ratio company logo/photo -->
+						<img src="assets/images/comp.svg" class="featured-image" />
+						<!-- Company name & industry -->
+						<div class="details">
+							<h3 class="company-name">Company Name</h3>
+							<p class="industry">Industry</p>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</section>
 
 		<!-- Contact Information -->
-		<section>
+		<section class="hidden">
 			<div class="wrapper">
 				<h2>Want to chat?</h2>
 				<h3>Always up for a chat alsdfhjlaksd fasdflkj alsdjf alskdfjh a</h3>
@@ -115,5 +150,8 @@
 				<p id="copyright">&copy; Copyright 2019</p>
 			</div>
 		</footer>
+		<div id="back-to-top" class="hide">
+			<i class="fa fa-arrow-up"></i>
+		</div>
 	</body>
 </html>
