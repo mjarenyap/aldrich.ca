@@ -37,7 +37,9 @@ $(document).ready(function() {
 				<img src="assets/images/${x[1]}" class="featured-image" />
 				<!-- Company name & industry -->
 				<div class="details">
-					<h4 class="company-name">${x[0]}</h3>
+					<div align="center">
+						<h4 class="company-name">${x[0]}</h4>
+					</div>
 					<p class="industry">Industry</p>
 				</div>
 			</div>

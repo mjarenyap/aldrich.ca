@@ -122,7 +122,7 @@ nav#nav {
 	left: 0;
 	z-index: 999;
 	background-color: var(--white);
-	box-shadow: 0px 0px 11px var(--border-color);
+	box-shadow: 0px 0px 11px #cfcfcf;
 	transition: ease all 0.7s;
 }
 
@@ -204,7 +204,10 @@ div#company-wrapper {
 
 div.company-card {
 	background-color: white;
-	border: thin solid var(--border-color);
+	/*
+	border: thin solid #f0f0f0;
+	box-shadow: 0px 2px 0px #f0f0f0;
+	*/
 	border-radius: var(--border-radius);
 	padding: 1em 3em;
 	margin: 0.5em;
@@ -216,8 +219,8 @@ div.company-card img.featured-image {
 	margin: auto;
 	margin-bottom: 1em;
 	width: 7em;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
 	transition: ease all 0.5s;
 }
 
@@ -229,7 +232,15 @@ div.company-card:hover img.featured-image {
 div.company-card div.details h4.company-name {
 	font-weight: 600;
 	text-align: center;
-	margin-bottom: 0;
+	margin: 0 auto;
+	display: inline-block;
+	border-bottom: 2px solid var(--border-color);
+	padding-bottom: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+div.company-card div.details hr {
+	width: 8em;
 }
 
 div.company-card div.details .industry {
