@@ -195,7 +195,7 @@ button:hover {
 }
 
 /* Company card stylesheet */
-div.company-wrapper {
+div#company-wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
@@ -214,6 +214,16 @@ div.company-card {
 div.company-card img.featured-image {
 	display: block;
 	margin: auto;
+	margin-bottom: 1em;
+	width: 7em;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	transition: ease all 0.5s;
+}
+
+div.company-card:hover img.featured-image {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
 
 div.company-card div.details h4.company-name {
