@@ -22,6 +22,7 @@ $(document).scroll(function() {
 		$(this).scrollTop() >= $(hidden_sections[x]).offset().top - 300 ? $(hidden_sections[x]).removeClass('hidden') : x;
 
 	$(this).scrollTop() >= 655 ? $('#back-to-top').removeClass('hide') : $('#back-to-top').addClass('hide');
+	$(this).scrollTop() >= 655 ? $('#nav').removeClass('hide') : $('#nav').addClass('hide');
 });
 
 /*

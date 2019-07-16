@@ -22,4 +22,8 @@
 	div.company-card {
 		padding: 0.8em;
 	}
+
+	div.company-card img.featured-image {
+		width: 5em;
+	}
 }
