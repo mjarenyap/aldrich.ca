@@ -5,7 +5,7 @@
 :root {
 	--white: #FFFFFF;
 	--black: #333333;
-	--blue: #448AFF;
+	--main-color: #3CBEBC;
 
 	--border-color: #C4C4C4;
 	--border-radius: 0.4em;
@@ -48,7 +48,7 @@ a {
 }
 
 p {
-	font-size: 1em;
+	font-size: 1.1em;
 	line-height: 1.688em;
 	margin: 0;
 	color: var(--black);
@@ -73,6 +73,7 @@ ul.skillset li {
 	list-style-type: none;
 	text-align: center;
 	margin: 0.5em 0;
+	font-size: 1.1em;
 }
 
 /* Element-specific styling */
@@ -107,12 +108,13 @@ div.social-wrapper i {
 }
 
 div.social-wrapper i:hover {
-	color: var(--blue);
+	color: var(--main-color);
 }
 
 #random-fact {
 	font-style: italic;
 	color: #999999;
+	margin: 2.5em 0;
 }
 
 nav#nav {
@@ -172,20 +174,22 @@ footer #copyright {
 button {
 	padding: 1em 3em;
 	color: white;
-	background-color: var(--blue);
-	border: thin solid var(--blue);
-	font-size: 0.8em;
+	background-color: var(--main-color);
+	border: thin solid var(--main-color);
+	font-size: 0.9em;
 	border-radius: var(--border-radius);
 	cursor: pointer;
 	transition: all ease 0.2s;
 	margin: auto;
 	font-family: 'Montserrat', sans-serif;
 	outline: none;
+	box-shadow: 0px 4px 11px rgba(60, 190, 188, 0.4);
 }
 
 button:hover {
-	background-color: #3e79da;
-	border-color: #3e79da;
+	background-color: #31a8a6;
+	border-color: #31a8a6;
+	box-shadow: 0px 4px 11px rgba(49, 168, 166, 0.4);
 }
 
 #random-btn {
@@ -234,7 +238,7 @@ div.company-card div.details h4.company-name {
 	text-align: center;
 	margin: 0 auto;
 	display: inline-block;
-	border-bottom: 2px solid var(--border-color);
+	border-bottom: 2px solid var(--main-color);
 	padding-bottom: 0.1em;
 	margin-bottom: 0.1em;
 }
@@ -267,8 +271,8 @@ div#back-to-top.hide {
 }
 
 div#back-to-top:hover {
-	color: var(--blue);
-	border-color: var(--blue);
+	color: var(--main-color);
+	border-color: var(--main-color);
 }
 
 div#back-to-top i {
