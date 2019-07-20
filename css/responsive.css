@@ -9,6 +9,10 @@
 		bottom: 1em !important;
 		right: 1em !important;
 	}
+
+	#nav-main-logo {
+		width: 2em !important;
+	}
 	
 	div.company-card {
 		flex: 1 0 5% !important;
