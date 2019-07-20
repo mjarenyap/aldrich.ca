@@ -238,8 +238,8 @@ div.company-card div.details h4.company-name {
 	text-align: center;
 	margin: 0 auto;
 	display: inline-block;
-	border-bottom: 2px solid var(--main-color);
-	padding-bottom: 0.1em;
+	border-top: 2px solid var(--main-color);
+	padding-top: 0.7em;
 	margin-bottom: 0.1em;
 }
 
@@ -249,6 +249,7 @@ div.company-card div.details hr {
 
 div.company-card div.details .industry {
 	text-align: center;
+	font-size: 0.9em;
 }
 
 /* Back-to-top button stylesheet */
