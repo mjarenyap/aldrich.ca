@@ -4,11 +4,12 @@
 	header div.wrapper, section div.wrapper, footer div.wrapper {
 		width: 90% !important;
 	}
-
+	
 	#back-to-top {
-		display: none;
+		bottom: 1em !important;
+		right: 1em !important;
 	}
-
+	
 	div.company-card {
 		flex: 1 0 5% !important;
 	}
